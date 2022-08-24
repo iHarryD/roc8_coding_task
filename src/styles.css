@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding-left: var(--FILTER-BAR-WIDTH);
+}
+
+:root {
+  --ACCENT-CLR: rgb(209, 244, 255);
+  --FILTER-BAR-WIDTH: min(30vw, 30rem);
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}

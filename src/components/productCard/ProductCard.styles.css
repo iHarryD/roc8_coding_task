@@ -1,0 +1,50 @@
+.card {
+  background: var(--ACCENT-CLR);
+  padding: 1rem;
+  width: 15rem;
+}
+
+.product-image-container {
+  aspect-ratio: 1;
+  background: bisque;
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  aspect-ratio: 1;
+  width: 100%;
+}
+
+.product-name {
+  font-weight: 600;
+}
+
+.product-price {
+  font-weight: 600;
+  padding-left: 3ch;
+  position: relative;
+}
+
+.product-price::before {
+  content: "Rs.";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.size-chip {
+  align-items: center;
+  aspect-ratio: 1;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  margin-inline-end: 0.5rem;
+  width: 2rem;
+}
+
+.product-text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
